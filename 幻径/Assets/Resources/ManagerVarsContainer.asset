@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306d7008fdb9f2d4f951c6c9f67ea6fe, type: 3}
+  m_Name: ManagerVarsContainer
+  m_EditorClassIdentifier: 
+  bgThemeSpriteList:
+  - {fileID: 21300000, guid: 81cb795749aefac4ea7663bc3f7f71fb, type: 3}
+  - {fileID: 21300000, guid: 274864b118ac4f54589e32e7035cd77f, type: 3}
+  - {fileID: 21300000, guid: 5feddf0396f8fd842b6a2034a343e884, type: 3}
+  - {fileID: 21300000, guid: 9c7f8abaceea58e4db628c3935ed7c4a, type: 3}
+  - {fileID: 21300000, guid: bc18efeabaf89a346ad1e1cbc55a83f7, type: 3}
+  - {fileID: 21300000, guid: 2d4fa45cc5f96c2479aef3191f45988d, type: 3}
+  - {fileID: 21300000, guid: 71776de568e3fe1469ccc8c773791488, type: 3}
+  platformThemeSpriteList:
+  - {fileID: 21300002, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300012, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300000, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300004, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  nextXPos: 0.554
+  nextYPos: 0.645
+  characterPre: {fileID: 5189196750583863960, guid: e683ac3d5d7cf05498fc05489cadc6d8,
+    type: 3}
+  normalPlatformPre: {fileID: 6482285212309550900, guid: e73e6eb49a5027d4ebfe0927b38b1bc0,
+    type: 3}
+  spickPlatformLeft: {fileID: 9152129207161524786, guid: 3304bdbd91beca94a84da88d21046b6d,
+    type: 3}
+  spickPlatformRight: {fileID: 259275076, guid: 67bfdeddef26d864280657851cad4cbb,
+    type: 3}
+  deathEffectPre: {fileID: 3674025608432638588, guid: aa90d865939c4514cb9385aabfb18b64,
+    type: 3}
+  commonPlatformGroup:
+  - {fileID: 3347494231918111670, guid: 225a02ebccf0b5842a61f0b801e3e0f6, type: 3}
+  - {fileID: 3347494231918111670, guid: 73849a80231237d40b0e72634bae7d0f, type: 3}
+  - {fileID: 3347494231918111670, guid: 13eb7e403137bbf48b47111a92ec4fb8, type: 3}
+  - {fileID: 3347494231918111670, guid: ae75ec34fa6094647a1751dcc330a079, type: 3}
+  grassPlatformGroup:
+  - {fileID: 3347494231918111670, guid: 0a84bf1ba690cb14f933e1f34302d7dc, type: 3}
+  - {fileID: 3347494231918111670, guid: 528d68842f3ed4746b88f0bc184ffc87, type: 3}
+  winterPlatformGroup:
+  - {fileID: 3347494231918111670, guid: 9ba997b4d7b81b646959950f084f59cc, type: 3}
+  - {fileID: 3347494231918111670, guid: 13282a4b9a8105f46af8193acc3fe8ca, type: 3}
+  - {fileID: 3347494231918111670, guid: a1807c6d17a7a5d4b9eaaee05b62d55f, type: 3}
+  skinNameList:
+  - "\u76C8\u683C\u9C81\u4EBA"
+  - "\u5FCD\u8005"
+  - "\u970D\u6BD4\u7279\u4EBA"
+  - "\u5C0F\u50F5\u5C38"
+  skinSpriteList:
+  - {fileID: 21300000, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300004, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300008, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300012, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  priceSkinList: 01000000020000000300000014000000
+  playerSkinList:
+  - {fileID: 21300002, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300006, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300010, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300014, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  skinChooseTtem: {fileID: 3394449392706234206, guid: 247c3fd11056b6a48b3eb8c52ce12f39,
+    type: 3}
+  dimondPre: {fileID: 402970863148928522, guid: f8c3c0fc1a4bfb6429ea9cefd8ac3437,
+    type: 3}
+  fallClip: {fileID: 8300000, guid: 2c7dc4466a66a8744a217ad78d143749, type: 3}
+  jumpClip: {fileID: 8300000, guid: a07e7d5471e1e064fba0717467121bcc, type: 3}
+  dimondClip: {fileID: 8300000, guid: e86d628ae2bb99c43805e503b83ce21e, type: 3}
+  btnClip: {fileID: 8300000, guid: 43f93bf9979e34d46a862c1fe448a414, type: 3}
+  hitClip: {fileID: 8300000, guid: 58036858fa184e44cbeb01894c87e6fa, type: 3}
+  isMusicOn: {fileID: 21300000, guid: 95b20d8a0bda8324bb68c78c9e50479c, type: 3}
+  isMusicOff: {fileID: 21300002, guid: 95b20d8a0bda8324bb68c78c9e50479c, type: 3}
